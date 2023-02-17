@@ -1,0 +1,76 @@
+
+/* why wont main content box work without body setting below */
+.main_content {
+  width: 70%;
+  max-width: 900px;
+  margin: auto;
+  background: white;
+  padding: 10px;
+}
+
+hr {
+  width: 100%;
+  height: 10pt;
+  background-color: lightgrey;
+}
+
+p {
+  text-indent: 25pt;
+  font-size: small;
+}
+
+#recipe_name {
+
+
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.left-container {
+  width:auto;
+}
+.right-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-top {
+  font: bold;
+  font-size: xx-large;
+  align-items: flex-start;
+}
+.nav_links {
+  display: flex;
+  gap: 10px;
+}
+
+.nav_sns {
+  display: flex;
+  gap: 1.5px;
+}
+
+.nav_service {
+  display: flex;
+  gap: 1.5px;
+}
+
+
+#chocopizza {
+  width:100%;
+}
+
+/* body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
