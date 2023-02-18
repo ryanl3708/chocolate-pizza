@@ -48,6 +48,11 @@ p {
   font-size: xx-large;
   align-items: flex-start;
 }
+
+#textbox {
+  width: 100%;
+}
+
 .nav_links {
   display: flex;
   gap: 10px;
